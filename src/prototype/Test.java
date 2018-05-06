@@ -1,9 +1,9 @@
 package prototype;
 
 public class Test {
-	
+
 	public static void main(String[] args) {
-		
+
 		try {
 			Prototype pro = new ConcretePrototype("prototype");
 			Prototype pro2 = (Prototype) pro.clone();
@@ -12,7 +12,7 @@ public class Test {
 		} catch (CloneNotSupportedException e) {
 			e.printStackTrace();
 		}
-		
+
 	}
-	
+
 }

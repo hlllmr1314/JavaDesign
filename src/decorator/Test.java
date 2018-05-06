@@ -5,7 +5,7 @@ package decorator;
  *
  */
 public class Test {
-	
+
 	public static void main(String args[]) {
 		Project employe = new Employe(); // 代码工人
 		Project managerA = new ManagerA(employe); // 项目经理
@@ -14,5 +14,5 @@ public class Test {
 		managerA.doCoding();
 		managerB.doCoding();
 	}
-	
+
 }

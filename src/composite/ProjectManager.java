@@ -8,10 +8,12 @@ public class ProjectManager extends Employer {
 		employers = new ArrayList<Employer>();
 	}
 
+	@Override
 	public void add(Employer employer) {
 		employers.add(employer);
 	}
 
+	@Override
 	public void delete(Employer employer) {
 		employers.remove(employer);
 	}

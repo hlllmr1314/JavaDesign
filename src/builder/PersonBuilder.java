@@ -7,11 +7,11 @@ package builder;
  */
 public interface PersonBuilder {
 
-	void buildHead();
-
 	void buildBody();
 
 	void buildFoot();
+
+	void buildHead();
 
 	Person buildPerson();
 }

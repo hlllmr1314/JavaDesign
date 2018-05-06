@@ -15,15 +15,8 @@ import java.io.Serializable;
 public class Prototype implements Cloneable, Serializable {
 	private String name;
 
-	public void setName(String name) {
-		this.name = name;
-	}
-
-	public String getName() {
-		return this.name;
-	}
-
 	/* 浅复制 */
+	@Override
 	public Object clone() throws CloneNotSupportedException {
 		Prototype proto = (Prototype) super.clone();
 		return proto;
@@ -41,5 +34,13 @@ public class Prototype implements Cloneable, Serializable {
 		ByteArrayInputStream bis = new ByteArrayInputStream(bos.toByteArray());
 		ObjectInputStream ois = new ObjectInputStream(bis);
 		return ois.readObject();
+	}
+
+	public String getName() {
+		return this.name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
 	}
 }
