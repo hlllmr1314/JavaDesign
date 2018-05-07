@@ -1,7 +1,7 @@
 package builder;
 
 /**
- * 
+ * 导演类，负责安排已有模块的顺序，然后告诉Builder开始建造
  * @author huanglei
  *
  */

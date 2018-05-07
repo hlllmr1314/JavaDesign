@@ -1,7 +1,7 @@
 package builder;
 
 /**
- * 
+ * 具体建造者
  * @author huanglei
  *
  */

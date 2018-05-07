@@ -1,7 +1,7 @@
 package builder;
 
 /**
- * 
+ *  抽象建造者类
  * @author huanglei
  *
  */

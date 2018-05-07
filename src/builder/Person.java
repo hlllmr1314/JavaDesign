@@ -2,6 +2,8 @@ package builder;
 
 /**
  * 
+ * 产品定义类
+ * 
  * @author huanglei
  *
  */
