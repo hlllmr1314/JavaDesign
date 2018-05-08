@@ -1,4 +1,4 @@
-package forceproxy;
+package proxy.force;
 
 public class GamePlayerProxy implements IGamePlayer {
 	
