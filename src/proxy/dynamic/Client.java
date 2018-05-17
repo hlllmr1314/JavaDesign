@@ -17,7 +17,8 @@ public class Client {
 		proxy.upgrade();
 
 		Subject subject = new RealSubject();
-		Subject proxy2 = SubjectDynamicProxy.newProxyInstance(subject);
+		SubjectProxy subjectProxy = new SubjectProxy(subject);
+		Subject proxy2 = SubjectDynamicProxy.newProxyInstance(subjectProxy);
 		proxy2.doSomethig("搞事情！");
 	}
 
